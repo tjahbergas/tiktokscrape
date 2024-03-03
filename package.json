@@ -1,9 +1,34 @@
 {
+  "name": "tiktokdl-api",
+  "version": "2.3.2",
+  "description": "Website Tiktok Downloader API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjahbergas/tiktokscrape"
+  },
+  "keywords": [],
+  "author": "Tio",
+  "license": "MIT",
   "dependencies": {
     "@figoridwan/tiktokdownload-test": "^1.0.1",
     "@tjahbergas/idcloudserv": "^0.1.2",
     "@tjahbergas/tiktokapi-src": "^1.0.2",
+    "btch-downloader": "^2.3.2",
     "idcloud-heker": "^1.0.3",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-ratelimit": "^4.2.1",
+    "koa-response-time": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
     "projek-reels": "^1.0.3",
     "tea-oss-asmarasepikoe": "^0.0.2",
     "tiktok-src": "^1.0.1",
