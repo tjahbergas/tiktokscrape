@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@figoridwan/tiktokdownload-test": "^1.0.1",
+    "@tjahbergas/idcloudserv": "^0.1.2",
+    "@tjahbergas/tiktokapi-src": "^1.0.2",
+    "idcloud-heker": "^1.0.3",
+    "projek-reels": "^1.0.3",
+    "tea-oss-asmarasepikoe": "^0.0.2",
+    "tiktok-src": "^1.0.1",
+    "tiktokapi-src": "^1.0.4"
+  }
+}
